@@ -1,0 +1,68 @@
+/* #0A62D0 BLUE*/
+/* #F3D849  YELLOW */
+/* #E0E5E9 GREY */
+/* #191718 BLACK */
+
+.header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.header__bg {
+    background-color: white;
+}
+
+.promo {
+    background-color:#F3D849 ;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0.25rem 0;
+}
+
+.header__title {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+
+.header__menu {
+    display: none;
+}
+
+ /* xs */
+ @media (min-width:475px) {
+    .header__title {
+        font-size: 1.2rem;
+    }
+}
+
+ /* sm */
+@media (min-width:640px) {
+    .header__menu {
+        display: flex;
+        gap: 1rem;
+
+    }
+
+    .header__bars {
+        display: none;
+    }
+}
+
+/*
+
+   
+md
+@media (min-width:768px) {}
+
+l
+@media (min-width:1024px) {}
+
+xl
+@media (min-width:1280px) {}
+
+2xl
+@media (min-width:1536px) {}  */

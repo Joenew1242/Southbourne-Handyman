@@ -1,0 +1,33 @@
+*,
+* ::before,
+* ::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #191718;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.fill {
+    height: 100vh;
+}
+
+

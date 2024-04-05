@@ -1,0 +1,14 @@
+.footer {
+    background-color: #F3D849;
+    margin-top: 5rem;
+    height:50px;
+}
+
+.footer__title {
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 12px;
+}
